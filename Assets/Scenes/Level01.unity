@@ -1198,7 +1198,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 1886438215}
   m_HandleRect: {fileID: 1246210978}
   m_Direction: 0
-  m_MinValue: -40
+  m_MinValue: -80
   m_MaxValue: 20
   m_WholeNumbers: 0
   m_Value: -25.612295
@@ -2173,7 +2173,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 1853012751}
   m_HandleRect: {fileID: 1180329247}
   m_Direction: 0
-  m_MinValue: -40
+  m_MinValue: -80
   m_MaxValue: 20
   m_WholeNumbers: 0
   m_Value: -25.612295
@@ -3916,7 +3916,7 @@ AudioSource:
   m_GameObject: {fileID: 1417919270}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: d14e07135a000f044a360b2fe293bc6f,
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 219cccb997a5b5e4699ceb645ac58b1e,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 8f815bb87cf99654e9480022e4c4c7c5, type: 3}
   m_PlayOnAwake: 1
@@ -4963,18 +4963,29 @@ MonoBehaviour:
   m_CaptionImage: {fileID: 0}
   m_ItemText: {fileID: 1656314472}
   m_ItemImage: {fileID: 0}
-  m_Value: 0
+  m_Value: 3
   m_Options:
     m_Options:
-    - m_Text: HIGH
+    - m_Text: LOW
       m_Image: {fileID: 0}
     - m_Text: MEDIUM
       m_Image: {fileID: 0}
-    - m_Text: LOW
+    - m_Text: HIGH
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1607652107}
+        m_MethodName: SetQuality
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1659350628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6752,6 +6763,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8109559802199627955, guid: 531c5cfade381c54da49f1a323921941,
+        type: 3}
+      propertyPath: MusicManager
+      value: 
+      objectReference: {fileID: 1417919270}
+    - target: {fileID: 8109559802199627955, guid: 531c5cfade381c54da49f1a323921941,
+        type: 3}
+      propertyPath: EffectManager
+      value: 
+      objectReference: {fileID: 647942464}
     - target: {fileID: 8109559802199627956, guid: 531c5cfade381c54da49f1a323921941,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6805,11 +6826,6 @@ PrefabInstance:
     - target: {fileID: 8109559802199627956, guid: 531c5cfade381c54da49f1a323921941,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8109559802199627957, guid: 531c5cfade381c54da49f1a323921941,
-        type: 3}
-      propertyPath: m_Constraints
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8109559802199627960, guid: 531c5cfade381c54da49f1a323921941,
