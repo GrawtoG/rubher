@@ -23,14 +23,15 @@ public class PlayerCollision : MonoBehaviour
             rb.AddTorque(rotateX, rotateY, rotateZ);
             MusicManager.SetActive(false);
             EffectManager.SetActive(true);
-           
+            FindObjectOfType<Damaging>().DestroyIt();
+
 
         }
         if (collisionInfo.collider.tag == "JumpPad")
         {
-            movement.enabled = false;
+            
             FindObjectOfType<Jumppad>().Jump();
-            movement.enabled = true;
+            
         }
 
     }

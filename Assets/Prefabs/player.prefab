@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8109559802199627957}
   - component: {fileID: 8109559802199627954}
   - component: {fileID: 8109559802199627955}
+  - component: {fileID: 289461633}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -126,6 +127,8 @@ MonoBehaviour:
   velocity: 40000
   goRight: 50
   goLeft: -50
+  Material1: {fileID: 2100000, guid: 179555ab8bd66734b8c1ac67e84c7cbc, type: 2}
+  Object: {fileID: 8109559802199627958}
 --- !u!114 &8109559802199627955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,3 +151,17 @@ MonoBehaviour:
   rb: {fileID: 8109559802199627957}
   MusicManager: {fileID: 0}
   EffectManager: {fileID: 0}
+--- !u!114 &289461633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8109559802199627960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52da02ea491da294087a4fcf3c6a079c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamagedVersion: {fileID: 3296423645114196824, guid: d5d5420df213bc34594c0fb2c6bc09df,
+    type: 3}

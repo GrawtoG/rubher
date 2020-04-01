@@ -7,10 +7,13 @@ public class GameMenager : MonoBehaviour
     bool gameHasEnded = false;
     public GameObject LevelCompleteUI;
     public GameObject Text;
+    public GameObject MusicMenager;
+
     public void LevelComplete()
     {
              
         Text.SetActive(false);
+        MusicMenager.SetActive(false);
         LevelCompleteUI.SetActive(true);
     }
     public void EndGame()

@@ -27,12 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level06.unity
     guid: c384a9e84d532b44b8365f969b212a64
   - enabled: 1
+    path: Assets/Scenes/Level07.unity
+    guid: 24f9f26fcf25f254da47651fc5382fbd
+  - enabled: 1
     path: Assets/Scenes/credits.unity
     guid: e1c6212d2d5fbe64693fc03473220157
-  - enabled: 1
-    path: Assets/Scenes/pauseMenu.unity
-    guid: 53f2c52619f181d448d053b0e72f9272
-  - enabled: 1
-    path: Assets/Scenes/options.unity
-    guid: f1837c1e76c59284591da21c1693d1a4
   m_configObjects: {}
