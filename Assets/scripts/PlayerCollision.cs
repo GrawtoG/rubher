@@ -18,12 +18,12 @@ public class PlayerCollision : MonoBehaviour
         if (collisionInfo.collider.tag == "wall")
         {
             movement.enabled = false;
-            FindObjectOfType<GameMenager>().EndGame();
             rb.AddForce(throwX, throwY, throwZ);
             rb.AddTorque(rotateX, rotateY, rotateZ);
             MusicManager.SetActive(false);
             EffectManager.SetActive(true);
             FindObjectOfType<Damaging>().DestroyIt();
+            FindObjectOfType<GameMenager>().EndGame();
 
 
         }

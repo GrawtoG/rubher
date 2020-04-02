@@ -29,20 +29,18 @@ public class move : MonoBehaviour
         }
         
         
-        if (rb.position.y < 215)
+        if (rb.position.y < -1)
         {
             
-            
-            Object.material = Material1;
-            GetComponent<DissolveSphere>().enabled = true;
-            
             FindObjectOfType<GameMenager>().EndGame();
+        }
+        if (rb.position.y < -20)
+        {
+            FindObjectOfType<Damaging>().DestroyIt();
             
-
-
         }
 
-        
+
 
     }
 }
