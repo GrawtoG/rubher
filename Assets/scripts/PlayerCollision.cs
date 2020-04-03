@@ -10,8 +10,8 @@ public class PlayerCollision : MonoBehaviour
     public int rotateZ = 500;
     public move movement;
     public Rigidbody rb;
-    public GameObject MusicManager;
-    public GameObject EffectManager;
+    
+    
 
     private void OnCollisionEnter(Collision collisionInfo)
     {
@@ -20,8 +20,8 @@ public class PlayerCollision : MonoBehaviour
             movement.enabled = false;
             rb.AddForce(throwX, throwY, throwZ);
             rb.AddTorque(rotateX, rotateY, rotateZ);
-            MusicManager.SetActive(false);
-            EffectManager.SetActive(true);
+            
+            
             FindObjectOfType<Damaging>().DestroyIt();
             FindObjectOfType<GameMenager>().EndGame();
 

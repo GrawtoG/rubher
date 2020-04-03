@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ce4580f33cb604c90c68b0a61a609e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  throwX: 200
-  throwY: 200
-  throwZ: 200
+  throwX: 0
+  throwY: 0
+  throwZ: -300
   rd: {fileID: 9167186896196609826}

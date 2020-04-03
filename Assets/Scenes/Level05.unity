@@ -11563,6 +11563,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 289461633, guid: 531c5cfade381c54da49f1a323921941, type: 3}
+      propertyPath: EffectManager
+      value: 
+      objectReference: {fileID: 499806043}
+    - target: {fileID: 289461633, guid: 531c5cfade381c54da49f1a323921941, type: 3}
+      propertyPath: MusicManager
+      value: 
+      objectReference: {fileID: 1433098412}
+    - target: {fileID: 289461633, guid: 531c5cfade381c54da49f1a323921941, type: 3}
+      propertyPath: Score
+      value: 
+      objectReference: {fileID: 735412380}
     - target: {fileID: 8109559802199627955, guid: 531c5cfade381c54da49f1a323921941,
         type: 3}
       propertyPath: MusicManager
@@ -12790,5 +12802,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 534669906, guid: 6d6d49ba27c7b1d40a0006e2ffaf858e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6d6d49ba27c7b1d40a0006e2ffaf858e, type: 3}

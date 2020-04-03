@@ -149,8 +149,6 @@ MonoBehaviour:
   rotateZ: 500000
   movement: {fileID: 8109559802199627954}
   rb: {fileID: 8109559802199627957}
-  MusicManager: {fileID: 0}
-  EffectManager: {fileID: 0}
 --- !u!114 &289461633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,3 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DamagedVersion: {fileID: 3296423645114196824, guid: d5d5420df213bc34594c0fb2c6bc09df,
     type: 3}
+  player: {fileID: 8109559802199627956}
+  EffectManager: {fileID: 0}
+  MusicManager: {fileID: 0}
+  Score: {fileID: 0}

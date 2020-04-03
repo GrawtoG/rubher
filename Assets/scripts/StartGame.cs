@@ -10,7 +10,7 @@ public class StartGame : MonoBehaviour
     }
     public void openCredits()
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene("credits");
     }
     
 }

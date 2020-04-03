@@ -2387,26 +2387,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 487572653}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &534669902 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5390962009695252867, guid: 6d6d49ba27c7b1d40a0006e2ffaf858e,
-    type: 3}
-  m_PrefabInstance: {fileID: 5390962010179279821}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &534669906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 534669902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96a85bf1f157b96498cf0f2a6b0ecfef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1911134136}
-  offset: {x: 0, y: 1, z: -5}
 --- !u!1 &541102356
 GameObject:
   m_ObjectHideFlags: 0
@@ -8530,16 +8510,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8109559802199627955, guid: 531c5cfade381c54da49f1a323921941,
-        type: 3}
-      propertyPath: MusicManager
-      value: 
-      objectReference: {fileID: 780994563}
-    - target: {fileID: 8109559802199627955, guid: 531c5cfade381c54da49f1a323921941,
-        type: 3}
+    - target: {fileID: 289461633, guid: 531c5cfade381c54da49f1a323921941, type: 3}
       propertyPath: EffectManager
       value: 
       objectReference: {fileID: 362886191}
+    - target: {fileID: 289461633, guid: 531c5cfade381c54da49f1a323921941, type: 3}
+      propertyPath: MusicManager
+      value: 
+      objectReference: {fileID: 780994563}
+    - target: {fileID: 289461633, guid: 531c5cfade381c54da49f1a323921941, type: 3}
+      propertyPath: Score
+      value: 
+      objectReference: {fileID: 103590383}
     - target: {fileID: 8109559802199627956, guid: 531c5cfade381c54da49f1a323921941,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9416,6 +9398,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 534669906, guid: 6d6d49ba27c7b1d40a0006e2ffaf858e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1911134136}
     - target: {fileID: 5390962009695252867, guid: 6d6d49ba27c7b1d40a0006e2ffaf858e,
         type: 3}
       propertyPath: m_Name
